@@ -5,6 +5,7 @@ Subject: 8x8 binary matrix arithmetic—logical addition, hadamard multiplicatio
 User can select an arithmetic to be executed.  
 Every matrix used in the program is represented with two 32-bit registers.  
 To print matrices, PrintMatrix() function in vitis processes them represented in bits by using bitmasking.  
+Seven-segment display shows which mode is selected by user.
 
 ### Tips
 - DO NOT USE initial IN MODULE. USE THEM ONLY IN TESTBENCH FILES.
