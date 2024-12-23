@@ -1,0 +1,48 @@
+timestamp=[2024-11-28 14:51:51], mode=WORKBENCH_START, duration=0:00:03.364, duration_ms=3364, data={}
+timestamp=[2024-11-28 14:51:51], mode=WORKBENCH_UI_INIT, duration=0:00:00.313, duration_ms=313, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-11-28 14:51:51], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.475, duration_ms=475, data={}
+timestamp=[2024-11-28 14:53:59], mode=APP_CREATION, duration=0:00:25.300, duration_ms=25300, data={name=Example_s_axi_rw, project_type=sdk, os=standalone, processor=psu_cortexa53, runtime=cpp, platform=Example_Template, application_type=application}
+timestamp=[2024-11-28 14:55:02], mode=PLATFORM_GENERATION, duration=0:00:27.922, duration_ms=27922, data={name=Example_Template}
+timestamp=[2024-11-28 14:55:12], mode=BUILD, duration=0:00:00.353, duration_ms=353, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 14:55:17], mode=BUILD, duration=0:00:00.594, duration_ms=594, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 14:56:24], mode=BUILD, duration=0:00:00.292, duration_ms=292, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:03:47], mode=BUILD, duration=0:00:00.343, duration_ms=343, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:03:58], mode=BUILD, duration=0:00:00.343, duration_ms=343, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:04:35], mode=BUILD, duration=0:00:00.344, duration_ms=344, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:05:29], mode=BUILD, duration=0:00:00.340, duration_ms=340, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:05:53], mode=BUILD, duration=0:00:00.342, duration_ms=342, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:06:20], mode=BUILD, duration=0:00:00.442, duration_ms=442, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:07:58], mode=BUILD, duration=0:00:00.344, duration_ms=344, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:08:29], mode=BUILD, duration=0:00:00.446, duration_ms=446, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:10:08], mode=BUILD, duration=0:00:00.442, duration_ms=442, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:11:13], mode=BUILD, duration=0:00:00.441, duration_ms=441, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:13:21], mode=BUILD, duration=0:00:00.441, duration_ms=441, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:18:03], mode=BUILD, duration=0:00:00.341, duration_ms=341, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:19:43], mode=BUILD, duration=0:00:00.446, duration_ms=446, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:33:43], mode=BUILD, duration=0:00:00.443, duration_ms=443, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:34:48], mode=WORKBENCH_START, duration=0:00:04.238, duration_ms=4238, data={}
+timestamp=[2024-11-28 15:34:48], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.409, duration_ms=409, data={}
+timestamp=[2024-11-28 15:34:48], mode=WORKBENCH_UI_INIT, duration=0:00:00.673, duration_ms=673, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Example_Template,Example_s_axi_rw,Example_s_axi_rw_system,RemoteSystemsTempFiles}
+timestamp=[2024-11-28 15:37:17], mode=BUILD, duration=0:00:00.463, duration_ms=463, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:44:52], mode=BUILD, duration=0:00:00.438, duration_ms=438, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:45:12], mode=BUILD, duration=0:00:00.438, duration_ms=438, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:46:35], mode=BUILD, duration=0:00:00.342, duration_ms=342, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:47:00], mode=BUILD, duration=0:00:00.339, duration_ms=339, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:47:25], mode=BUILD, duration=0:00:00.339, duration_ms=339, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:47:35], mode=BUILD, duration=0:00:00.337, duration_ms=337, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:48:29], mode=BUILD, duration=0:00:00.439, duration_ms=439, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:48:51], mode=BUILD, duration=0:00:00.438, duration_ms=438, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:50:02], mode=BUILD, duration=0:00:00.440, duration_ms=440, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:50:48], mode=BUILD, duration=0:00:00.440, duration_ms=440, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-11-28 15:51:40], mode=BUILD, duration=0:00:00.441, duration_ms=441, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-12-19 13:49:34], mode=WORKBENCH_START, duration=0:00:10.540, duration_ms=10540, data={}
+timestamp=[2024-12-19 13:49:36], mode=WORKBENCH_UI_INIT, duration=0:00:01.550, duration_ms=1550, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Example_Template,Example_s_axi_rw,Example_s_axi_rw_system,RemoteSystemsTempFiles}
+timestamp=[2024-12-19 13:49:37], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.624, duration_ms=624, data={}
+timestamp=[2024-12-19 13:54:11], mode=PLATFORM_GENERATION, duration=0:03:33.463, duration_ms=213463, data={name=Example_Template}
+timestamp=[2024-12-19 13:54:34], mode=BUILD, duration=0:00:03.328, duration_ms=3328, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-12-23 12:52:40], mode=WORKBENCH_START, duration=0:00:09.920, duration_ms=9920, data={}
+timestamp=[2024-12-23 12:52:41], mode=WORKBENCH_UI_INIT, duration=0:00:01.347, duration_ms=1347, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Example_Template,Example_s_axi_rw,Example_s_axi_rw_system,RemoteSystemsTempFiles}
+timestamp=[2024-12-23 12:52:43], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.568, duration_ms=568, data={}
+timestamp=[2024-12-23 12:54:08], mode=PLATFORM_GENERATION, duration=0:00:54.675, duration_ms=54675, data={name=Example_Template}
+timestamp=[2024-12-23 12:54:18], mode=BUILD, duration=0:00:01.101, duration_ms=1101, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}
+timestamp=[2024-12-23 12:54:49], mode=BUILD, duration=0:00:00.910, duration_ms=910, data={name=Example_s_axi_rw, configuration=Debug, clean_build=false}

@@ -1,0 +1,91 @@
+12:54:48 **** Incremental Build of configuration Debug for project Example_s_axi_rw ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/SoCDesign/Final/vitis/Example_Template/export/Example_Template/sw/Example_Template/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:97:9: warning: implicit declaration of function 'ConfigMultAdd' [-Wimplicit-function-declaration]
+   97 |         ConfigMultAdd(A, B, C, D, ModeSel);
+      |         ^~~~~~~~~~~~~
+../src/helloworld.c:103:9: warning: implicit declaration of function 'PrintMatrix' [-Wimplicit-function-declaration]
+  103 |         PrintMatrix(A, B);
+      |         ^~~~~~~~~~~
+../src/helloworld.c:109:9: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  109 |         sleep(2); // 2sec
+      |         ^~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:115:7: warning: conflicting types for 'ConfigMultAdd'; have 'void(unsigned int *, unsigned int *, unsigned int *, unsigned int *, unsigned int *)'
+  115 |  void ConfigMultAdd(unsigned int *input1, unsigned int *input2, unsigned int *input3, unsigned int *input4, unsigned int *modesel) {
+      |       ^~~~~~~~~~~~~
+../src/helloworld.c:97:9: note: previous implicit declaration of 'ConfigMultAdd' with type 'void(unsigned int *, unsigned int *, unsigned int *, unsigned int *, unsigned int *)'
+   97 |         ConfigMultAdd(A, B, C, D, ModeSel);
+      |         ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'ConfigMultAdd':
+../src/helloworld.c:116:67: warning: passing argument 2 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  116 |     Xil_Out32((XPAR_AXI_LITE_TEMPLATE_TOP_0_BASEADDR+A_Register), input1);
+      |                                                                   ^~~~~~
+      |                                                                   |
+      |                                                                   unsigned int *
+In file included from ../src/helloworld.c:53:
+C:/SoCDesign/Final/vitis/Example_Template/export/Example_Template/sw/Example_Template/standalone_psu_cortexa53_0/bspinclude/include/xil_io.h:208:48: note: expected 'u32' {aka 'unsigned int'} but argument is of type 'unsigned int *'
+  208 | static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+      |                                            ~~~~^~~~~
+../src/helloworld.c:117:67: warning: passing argument 2 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  117 |     Xil_Out32((XPAR_AXI_LITE_TEMPLATE_TOP_0_BASEADDR+B_Register), input2);
+      |                                                                   ^~~~~~
+      |                                                                   |
+      |                                                                   unsigned int *
+In file included from ../src/helloworld.c:53:
+C:/SoCDesign/Final/vitis/Example_Template/export/Example_Template/sw/Example_Template/standalone_psu_cortexa53_0/bspinclude/include/xil_io.h:208:48: note: expected 'u32' {aka 'unsigned int'} but argument is of type 'unsigned int *'
+  208 | static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+      |                                            ~~~~^~~~~
+../src/helloworld.c:118:67: warning: passing argument 2 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  118 |     Xil_Out32((XPAR_AXI_LITE_TEMPLATE_TOP_0_BASEADDR+C_Register), input3);
+      |                                                                   ^~~~~~
+      |                                                                   |
+      |                                                                   unsigned int *
+In file included from ../src/helloworld.c:53:
+C:/SoCDesign/Final/vitis/Example_Template/export/Example_Template/sw/Example_Template/standalone_psu_cortexa53_0/bspinclude/include/xil_io.h:208:48: note: expected 'u32' {aka 'unsigned int'} but argument is of type 'unsigned int *'
+  208 | static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+      |                                            ~~~~^~~~~
+../src/helloworld.c:119:67: warning: passing argument 2 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  119 |     Xil_Out32((XPAR_AXI_LITE_TEMPLATE_TOP_0_BASEADDR+D_Register), input4);
+      |                                                                   ^~~~~~
+      |                                                                   |
+      |                                                                   unsigned int *
+In file included from ../src/helloworld.c:53:
+C:/SoCDesign/Final/vitis/Example_Template/export/Example_Template/sw/Example_Template/standalone_psu_cortexa53_0/bspinclude/include/xil_io.h:208:48: note: expected 'u32' {aka 'unsigned int'} but argument is of type 'unsigned int *'
+  208 | static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+      |                                            ~~~~^~~~~
+../src/helloworld.c:120:73: warning: passing argument 2 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  120 |     Xil_Out32((XPAR_AXI_LITE_TEMPLATE_TOP_0_BASEADDR+ModeSel_Register), modesel);
+      |                                                                         ^~~~~~~
+      |                                                                         |
+      |                                                                         unsigned int *
+In file included from ../src/helloworld.c:53:
+C:/SoCDesign/Final/vitis/Example_Template/export/Example_Template/sw/Example_Template/standalone_psu_cortexa53_0/bspinclude/include/xil_io.h:208:48: note: expected 'u32' {aka 'unsigned int'} but argument is of type 'unsigned int *'
+  208 | static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+      |                                            ~~~~^~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:123:6: warning: conflicting types for 'PrintMatrix'; have 'void(unsigned int,  unsigned int)'
+  123 | void PrintMatrix(unsigned int matrix1, unsigned int matrix2) {
+      |      ^~~~~~~~~~~
+../src/helloworld.c:103:9: note: previous implicit declaration of 'PrintMatrix' with type 'void(unsigned int,  unsigned int)'
+  103 |         PrintMatrix(A, B);
+      |         ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Example_s_axi_rw.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/SoCDesign/Final/vitis/Example_Template/export/Example_Template/sw/Example_Template/standalone_psu_cortexa53_0/bsplib/lib -o "Example_s_axi_rw.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Example_s_axi_rw.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size Example_s_axi_rw.elf  |tee "Example_s_axi_rw.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 145516	   4578	  20818	 170912	  29ba0	Example_s_axi_rw.elf
+'Finished building: Example_s_axi_rw.elf.size'
+' '
+
+12:54:49 Build Finished (took 895ms)
+
